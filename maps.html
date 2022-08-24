@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <title>AgroScout</title>
+</head>
+<body>
+    
+    <header class="header container">
+        <div class="header__menu">
+            <a href="index.html"><img class="header__menu-logo" src="images/logo_main.svg" alt="логотип"></a>
+            <a class="header__menu-tel" href="tel:+78612179118">+7861 21791 18</a>
+        </div>
+        <div class="header__menu">
+            <ul class="header__menu-social">
+                <li><a class="header__menu-social-vk" target="_blank" href="https://vk.com"></a></li>
+                <li><a class="header__menu-social-inst" target="_blank" href="https://instagram.com"></a></li>
+                <li><a class="header__menu-social-tiktok" target="_blank" href="https://tiktok.com"></a></li>
+            </ul>
+            <ul class="header__menu-lang">
+                <li><a href="">EN</a></li>
+                <li><a href="">RU</a></li>
+            </ul>
+            <div class="header__menu-nav">
+                <button id="button__basket" class="header__menu-nav-basket">
+                    <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.99338 13.8851C9.92991 13.3365 9.43371 12.9432 8.88508 13.0066C8.33646 13.0701 7.94316 13.5663 8.00663 14.1149L9.99338 13.8851ZM9.85594 21.3989L8.86256 21.5138L8.86258 21.5139L9.85594 21.3989ZM11.7188 23L11.7184 24H11.7188V23ZM21.2812 23L21.2814 22H21.2812V23ZM23.145 21.3989L24.1384 21.5139L24.1384 21.5137L23.145 21.3989ZM24.9934 14.1148C25.0568 13.5662 24.6634 13.07 24.1148 13.0066C23.5662 12.9432 23.07 13.3366 23.0066 13.8852L24.9934 14.1148ZM7 12.5C6.44772 12.5 6 12.9477 6 13.5C6 14.0523 6.44772 14.5 7 14.5V12.5ZM26 14.5C26.5523 14.5 27 14.0523 27 13.5C27 12.9477 26.5523 12.5 26 12.5V14.5ZM9.10557 13.5528C8.85858 14.0468 9.05881 14.6474 9.55279 14.8944C10.0468 15.1414 10.6474 14.9412 10.8944 14.4472L9.10557 13.5528ZM12.8944 10.4472C13.1414 9.95324 12.9412 9.35256 12.4472 9.10557C11.9532 8.85858 11.3526 9.05881 11.1056 9.55279L12.8944 10.4472ZM22.1056 14.4472C22.3526 14.9412 22.9532 15.1414 23.4472 14.8944C23.9412 14.6474 24.1414 14.0468 23.8944 13.5528L22.1056 14.4472ZM21.8944 9.55279C21.6474 9.05881 21.0468 8.85858 20.5528 9.10557C20.0588 9.35256 19.8586 9.95324 20.1056 10.4472L21.8944 9.55279ZM12.5 19C12.5 19.5523 12.9477 20 13.5 20C14.0523 20 14.5 19.5523 14.5 19H12.5ZM14.5 17C14.5 16.4477 14.0523 16 13.5 16C12.9477 16 12.5 16.4477 12.5 17H14.5ZM15.5 19C15.5 19.5523 15.9477 20 16.5 20C17.0523 20 17.5 19.5523 17.5 19H15.5ZM17.5 17C17.5 16.4477 17.0523 16 16.5 16C15.9477 16 15.5 16.4477 15.5 17H17.5ZM18.5 19C18.5 19.5523 18.9477 20 19.5 20C20.0523 20 20.5 19.5523 20.5 19H18.5ZM20.5 17C20.5 16.4477 20.0523 16 19.5 16C18.9477 16 18.5 16.4477 18.5 17H20.5ZM8.00663 14.1149L8.86256 21.5138L10.8493 21.284L9.99338 13.8851L8.00663 14.1149ZM8.86258 21.5139C9.03016 22.961 10.288 23.9995 11.7184 24L11.7191 22C11.2393 21.9998 10.8928 21.6594 10.8493 21.2839L8.86258 21.5139ZM11.7188 24H21.2812V22H11.7188V24ZM21.2811 24C22.712 24.0002 23.9707 22.9615 24.1384 21.5139L22.1516 21.2839C22.1081 21.6595 21.7614 22.0001 21.2814 22L21.2811 24ZM24.1384 21.5137L24.9934 14.1148L23.0066 13.8852L22.1516 21.2841L24.1384 21.5137ZM7 14.5H26V12.5H7V14.5ZM10.8944 14.4472L12.8944 10.4472L11.1056 9.55279L9.10557 13.5528L10.8944 14.4472ZM23.8944 13.5528L21.8944 9.55279L20.1056 10.4472L22.1056 14.4472L23.8944 13.5528ZM14.5 19V17H12.5V19H14.5ZM17.5 19V17H15.5V19H17.5ZM20.5 19V17H18.5V19H20.5Z"/>
+                        <circle cx="16.5" cy="16.5" r="15.5" stroke-width="2"/>
+                        </svg>
+                </button>
+                <input class="header__menu-nav-checkbox" type="checkbox" id="main-menu"/>
+                <label class="header__menu-nav-humb" for="main-menu">
+                    <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 0C7.60526 0 0 7.60526 0 17C0 26.3947 7.60526 34 17 34C26.3947 34 34 26.3947 34 17C34 7.60526 26.3947 0 17 0ZM17 32.2105C8.58947 32.2105 1.78947 25.4105 1.78947 17C1.78947 8.58947 8.58947 1.78947 17 1.78947C25.4105 1.78947 32.2105 8.58947 32.2105 17C32.2105 25.4105 25.4105 32.2105 17 32.2105ZM25.7237 17C25.7237 17.4921 25.3211 17.8947 24.8289 17.8947H14.8079C14.3158 17.8947 13.9132 17.4921 13.9132 17C13.9132 16.5079 14.3158 16.1053 14.8079 16.1053H24.8289C25.3211 16.1053 25.7237 16.5079 25.7237 17ZM25.7237 22.3684C25.7237 22.8605 25.3211 23.2632 24.8289 23.2632H14.8079C14.3158 23.2632 13.9132 22.8605 13.9132 22.3684C13.9132 21.8763 14.3158 21.4737 14.8079 21.4737H24.8289C25.3211 21.4737 25.7237 21.8763 25.7237 22.3684ZM11.7658 17C11.7658 17.4921 11.3632 17.8947 10.8711 17.8947H9.17105C8.67895 17.8947 8.27632 17.4921 8.27632 17C8.27632 16.5079 8.67895 16.1053 9.17105 16.1053H10.8711C11.3632 16.1053 11.7658 16.5079 11.7658 17ZM11.7658 22.3684C11.7658 22.8605 11.3632 23.2632 10.8711 23.2632H9.17105C8.67895 23.2632 8.27632 22.8605 8.27632 22.3684C8.27632 21.8763 8.67895 21.4737 9.17105 21.4737H10.8711C11.3632 21.4737 11.7658 21.8763 11.7658 22.3684ZM25.7237 11.6316C25.7237 12.1237 25.3211 12.5263 24.8289 12.5263H14.8079C14.3158 12.5263 13.9132 12.1237 13.9132 11.6316C13.9132 11.1395 14.3158 10.7368 14.8079 10.7368H24.8289C25.3211 10.7368 25.7237 11.1395 25.7237 11.6316ZM11.7658 11.6316C11.7658 12.1237 11.3632 12.5263 10.8711 12.5263H9.17105C8.67895 12.5263 8.27632 12.1237 8.27632 11.6316C8.27632 11.1395 8.67895 10.7368 9.17105 10.7368H10.8711C11.3632 10.7368 11.7658 11.1395 11.7658 11.6316Z"/>
+                    </svg>
+                    <span class="hamb-cross"></span>
+                </label>
+                <nav class="header__menu-nav-wrap">
+                    <ul class="header__menu-nav-wrap-links">
+                        <li><a class="link__main" href="index.html">Главная</a></li>
+                        <li><a class="link__entomophages" href="entomofagi.html">Энтомофаги</a></li>
+                        <li><a class="link__spray" href="spray.html">Опрыскивание</a></li>
+                        <li><a class="link__maps" href="#">Картография и мониторинг</a></li>
+                        <li><a class="link__products" href="catalog.html">Каталог продукции</a></li>
+                        <li><a class="link__news" href="news.html">Новости</a></li>
+                        <li><a class="link__about" href="about.html">О компании</a></li>
+                        <li><a class="link__contacts" href="contacts.html">Контакты</a></li>
+                    </ul>
+                    <ul class="header__menu-nav-wrap-social">
+                        <li><a class="whatsapp" href="#">
+                            <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.6171 4.36133C24.2356 2.97323 22.5903 1.87273 20.7772 1.12397C18.9641 0.375215 17.0194 -0.00683299 15.0565 9.24945e-05C6.83136 9.24945e-05 0.128076 6.67132 0.120542 14.8613C0.120542 17.4844 0.809894 20.0363 2.11138 22.2956L0 30L7.91813 27.9338C10.1086 29.1205 12.5626 29.7425 15.0565 29.7431H15.064C23.2911 29.7431 29.9925 23.0719 30 14.8744C30.0019 12.9208 29.6154 10.986 28.8629 9.18171C28.1103 7.37739 27.0066 5.73913 25.6153 4.36133H25.6171ZM15.0565 27.2269C12.8321 27.2276 10.6486 26.6317 8.73556 25.5019L8.28352 25.2319L3.58614 26.4581L4.84053 21.8963L4.54671 21.4257C3.30325 19.4575 2.64562 17.1788 2.65005 14.8538C2.65005 8.05507 8.21949 2.50883 15.064 2.50883C16.6946 2.50592 18.3097 2.82435 19.8161 3.44575C21.3225 4.06716 22.6904 4.97925 23.841 6.12945C24.9957 7.27516 25.911 8.63711 26.5343 10.1367C27.1575 11.6364 27.4763 13.244 27.4724 14.8669C27.4648 21.69 21.8954 27.2269 15.0565 27.2269ZM21.8653 17.9757C21.4942 17.79 19.6616 16.8919 19.3169 16.7644C18.9741 16.6425 18.7236 16.5788 18.4788 16.95C18.2283 17.3194 17.5126 18.1613 17.2978 18.4032C17.0831 18.6525 16.8609 18.6807 16.4879 18.4969C16.1169 18.3094 14.9134 17.9194 13.4894 16.65C12.3782 15.6657 11.6342 14.4469 11.412 14.0775C11.1973 13.7063 11.3913 13.5076 11.5777 13.3219C11.7416 13.1569 11.9488 12.8869 12.1352 12.6732C12.3236 12.4594 12.3857 12.3019 12.5082 12.0544C12.6306 11.8032 12.5722 11.5894 12.4799 11.4038C12.3857 11.2182 11.6418 9.38631 11.3272 8.64756C11.0259 7.91819 10.7189 8.01944 10.4891 8.01007C10.2744 7.99694 10.0239 7.99694 9.77335 7.99694C9.58418 8.00162 9.39803 8.04518 9.22657 8.12488C9.05511 8.20457 8.90205 8.31869 8.77699 8.46007C8.4342 8.83132 7.47551 9.72944 7.47551 11.5613C7.47551 13.3932 8.81278 15.1538 9.00113 15.4032C9.18571 15.6525 11.6267 19.4007 15.3729 21.0132C16.2582 21.3975 16.955 21.6244 17.4994 21.7969C18.394 22.0819 19.202 22.0388 19.8462 21.9469C20.5619 21.8382 22.0517 21.0469 22.3663 20.1788C22.6752 19.3088 22.6752 18.5663 22.581 18.4107C22.4887 18.2532 22.2382 18.1613 21.8653 17.9757Z"/></svg>
+                            </a>
+                        </li>
+                        <li><a class="tg" href="#">
+                                <svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="14" fill= "none" stroke-width="2"/>
+                                <path d="M20.92 9.08548L6.7471 14.3803C5.77986 14.7567 5.78545 15.2794 6.56964 15.5125L10.2084 16.6122L18.6274 11.4661C19.0255 11.2314 19.3892 11.3577 19.0903 11.6148L12.2692 17.5787H12.2676L12.2692 17.5795L12.0182 21.2131C12.3859 21.2131 12.5482 21.0497 12.7544 20.8569L14.5218 19.1919L18.1982 21.8226C18.876 22.1843 19.3628 21.9984 19.5315 21.2147L21.9448 10.196C22.1918 9.23649 21.5667 8.80203 20.92 9.08548Z"/></svg>
+                            </a>
+                        </li>
+                        <li><a class="wechat" href="#">
+                            <svg width="37" height="37" viewBox="0 0 37 37" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.2817 17.7562C13.0169 17.758 12.7545 17.7083 12.5095 17.6098C12.2646 17.5114 12.0421 17.3661 11.8549 17.1826C11.6677 16.9991 11.5196 16.781 11.4191 16.5409C11.3187 16.3007 11.2679 16.0434 11.2698 15.7839C11.2698 14.6819 12.1575 13.8101 13.2817 13.8101C14.4042 13.8101 15.2935 14.6819 15.2935 15.7839C15.2935 16.8844 14.4042 17.7562 13.2817 17.7562ZM23.7183 17.7562C23.4536 17.758 23.1912 17.7083 22.9462 17.6098C22.7013 17.5114 22.4787 17.3661 22.2915 17.1826C22.1044 16.9991 21.9562 16.781 21.8558 16.5409C21.7554 16.3007 21.7046 16.0434 21.7065 15.7839C21.7065 14.6819 22.5958 13.8101 23.7183 13.8101C24.8425 13.8101 25.7302 14.6819 25.7302 15.7839C25.7302 16.8844 24.8425 17.7562 23.7183 17.7562ZM10.3946 29.5808L11.514 28.9116C12.7816 28.1539 14.2826 27.8623 15.7491 28.0889C16.0811 28.1395 16.3535 28.1794 16.5633 28.2055C17.1989 28.2884 17.8471 28.3299 18.5 28.3299C25.4202 28.3299 30.8687 23.6915 30.8687 18.1998C30.8687 12.7081 25.4202 8.06972 18.5 8.06972C11.5798 8.06972 6.13131 12.7081 6.13131 18.1998C6.13131 20.2964 6.91414 22.3025 8.37333 24.0031C8.44849 24.0906 8.56121 24.2134 8.70838 24.3638C9.3238 24.9921 9.79579 25.7416 10.093 26.5625C10.3902 27.3834 10.5058 28.2568 10.4322 29.1249L10.393 29.5808H10.3946ZM9.40823 33.7663C9.16198 33.9174 8.87771 33.9983 8.58724 34C8.29676 34.0017 8.01153 33.9241 7.76344 33.776C7.51535 33.6279 7.31418 33.415 7.18244 33.1612C7.0507 32.9074 6.99358 32.6227 7.01748 32.3389L7.31182 28.8701C7.34875 28.4362 7.29106 27.9994 7.14259 27.589C6.99413 27.1786 6.75827 26.8038 6.45071 26.4896C6.28649 26.3243 6.12776 26.1538 5.97475 25.9785C4.10535 23.7974 3 21.1083 3 18.1998C3 10.9092 9.93899 5 18.5 5C27.061 5 34 10.9092 34 18.1998C34 25.4904 27.061 31.3996 18.5 31.3996C17.7015 31.3996 16.9187 31.3489 16.1531 31.2492C15.8556 31.2097 15.5586 31.1667 15.2622 31.1202C14.5287 31.0068 13.7779 31.1525 13.1439 31.5316L9.40667 33.7663H9.40823Z"/></svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="headblock">
+        <div class="main-slider">
+            <div>
+                <img class="" src="images/slider/bgBackground_6.jpg" alt="">
+            </div>
+            <div>
+                <img class="" src="images/slider/bgBackground_1.jpg" alt="">
+            </div>
+            <div>
+                <img class="" src="images/slider/bgBackground_3.jpg" alt="">
+            </div>
+            <div>
+                <img class="" src="images/slider/bgBackground_2.jpg" alt="">
+            </div>
+            <div>
+                <img class="" src="images/slider/bgBackground_5.jpg" alt="">
+            </div>
+            <div>
+                <img class="" src="images/slider/bgBackground_4.jpg" alt="">
+            </div>
+        </div>
+        <img class="headblock__fon" src="images/slider/Vector.png" alt="">
+        <h1 class="headblock__title">Агромониторинг для управления бизнесом</h1>
+        <p class="headblock__subtitle">Высокое качество продукции и хороший урожай - результат точного планирования и быстрого реагирования на возникающие посевам угроз</p>
+        <!-- <img class="headblock__line" src="images/slider/Vector_line.png" alt="">
+        <img class="headblock__drone" src="images/slider/iconDrone_flying.png" alt=""> -->
+        <ul class="headblock__mapPage">
+            <li class="headblock__mapPage-automat">Полная автоматизация</li>
+            <li class="headblock__mapPage-operateVideo">Оперативность съемки</li>
+            <li class="headblock__mapPage-highAccuracy">Высокая точность</li>
+        </ul>
+    </div>
+
+    <div class="breadcrumb container">
+        <p><a href="index.html">Главная</a> / <a class="breadcrumb__currentpage" href="#">Картография и мониторинг</a></p>
+    </div>
+
+    <div class="aboutAeromapping container">
+        <h2 class="backTitle">Об Услуге
+            <span class="frontTitle">Профессиональная аэрофотосъемка</span>
+        </h2>
+        <p>Аэрофотосъемка осуществляется с применением БПЛА Геоскан</p>
+    </div>
+
+    <div class="featuresAeromapping container">
+        <h2 class="backTitle">Плюсы аэрофотосъемки
+            <span class="frontTitle">Приемущества аэрофотосъемки</span>
+        </h2>
+        <div class="featuresAeromapping__block">
+            <p class="sideTitle">преимущества</p>
+            <img class="featuresAeromapping__block-lines" src="images/background/iconLine.svg" alt="">
+            <img class="featuresAeromapping__block-drone" src="images/icons/iconDron.svg" alt="">
+
+            <div class="featuresAeromapping__block-item lowPrice">
+                <p class="featuresAeromapping__block-item-title">Низкая цена аэрофотосъемка</p>
+                <p class="featuresAeromapping__block-item-subtitle">Стоимость беспилотной аэрофотосъемка в разы меньше стоимости получения данных спутниковой съемки, а также традиционных методов приведения геодезических изысканий.</p>
+            </div>
+
+            <div class="featuresAeromapping__block-item highCapacity">
+                <p class="featuresAeromapping__block-item-title">Высокая производительность</p>
+                <p class="featuresAeromapping__block-item-subtitle">За день может быть выполнена съемка до нескольких сотен квадратных километров.</p>
+            </div>
+
+            <div class="featuresAeromapping__block-item highResol">
+                <p class="featuresAeromapping__block-item-title">Высокие разрешение снимков</p>
+                <p class="featuresAeromapping__block-item-subtitle">Беспилотники Геоскана позволяют получать снимки с пространственным разрешением до 1см/пикс, что обеспечивает высокий уровень детализации получаемых моделей и ортофотопланов.</p>
+            </div>
+
+            <div class="featuresAeromapping__block-item coordSystem">
+                <p class="featuresAeromapping__block-item-title">Работа в требуемой системе координат</p>
+                <p class="featuresAeromapping__block-item-subtitle">Результаты полета- геопривязанные фотографии, которым в процессе обработки можно задать привязку к необходимой системе координат.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="procAerophoto container">
+        <h2 class="backTitle">Как это работает
+            <span class="frontTitle">Процесс аэрофотосъемки</span>
+        </h2>
+        <p class="procAerophoto__desc">Аэрофотосъемки разделяется на этапы полевых и камеральных работ, при этом набор данных, получаемых по результатам камеральных работ, варьируется в зависимости от требований заказчика</p>
+        <div class="procAerophoto__block">
+            <div class="procAerophoto__block-img">
+                <img src="images/image_tablet.png" alt="">
+            </div>
+            <div class="procAerophoto__block-content">
+                <div class="procAerophoto__block-content-works">
+                    <a href="#">Полевые работы</a>
+                    <a href="#">Камеральные работы </a>
+                </div>
+                <ul class="procAerophoto__block-content-list">
+                    <li>Получение разрешений на аэрофотосъемку</li>
+                    <li>Выполнение аэрофотосъемки с использованием БПЛА</li>
+                </ul>
+                <button class="commonBtn">Получить консультацию</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="aerophotoData container">
+        <h2 class="backTitle">Получаемые данные
+            <span class="frontTitle">Материалы аэрофотосъемки</span>
+        </h2>
+        <p>Фотограмметрическая  обработка, выполняемая в Pix4D, позволяет получать необходимые данные для дальнейшего использования</p>
+        <div class="aerophotoData__tabs">
+            <div class="aerophotoData__types">
+                <button class="aerophotoData__types-btn aerophotoData__types-btn-active">Ортофотоплан</button>
+                <button class="aerophotoData__types-btn">NDVI</button>
+                <button class="aerophotoData__types-btn">Цифровая модель местности</button>
+                <button class="aerophotoData__types-btn">3D-модель местности</button>
+            </div>
+            <div class="aerophotoData__types-content">
+                <div class="aerophotoData__types-content-block aerophotoData__types-content-block-show" id="content_1">
+                    <div>
+                        <p class="aerophotoData__types-desc-title">Одним файлом или в виде тайлов. Форматы: geotiff, jpg, png, GoogleEarth KML\KMZ</p>
+                    <ul class="aerophotoData__types-desc-prop">
+                        <li class="resol"><span>Разрешение до 2см/пикс</span></li>
+                        <li class="scale"><span>Масштаб от 1:500 до 1:10000</span></li>
+                        <li class="accur"><span>Высокая геодезическая точность</span></li>
+                    </ul>
+                    </div>
+                    <div class="aerophotoData__types-content-block-img">
+                        <img src="images/image_land.jpg" alt="">
+                        <p class="sideTitle">материалы</p>
+                    </div>
+                </div>
+                <div class="aerophotoData__types-content-block" id="content_2">
+                    <div>
+                        <p class="aerophotoData__types-desc-title">Одним файлом или в виде тайлов. Форматы: geotiff, jpg, png, GoogleEarth KML\KMZ</p>
+                    <ul class="aerophotoData__types-desc-prop">
+                        <li class="resol"><span>Разрешение до 2см/пикс</span></li>
+                        <li class="resol"><span>Разрешение до 2см/пикс</span></li>
+                        <li class="resol"><span>Разрешение до 2см/пикс</span></li>
+                    </ul>
+                    </div>
+                    <div class="aerophotoData__types-content-block-img">
+                        <img src="images/image_land.jpg" alt="">
+                        <p class="sideTitle">материалы</p>
+                    </div>
+                </div>
+                <div class="aerophotoData__types-content-block" id="content_3">
+                    <div>
+                        <p class="aerophotoData__types-desc-title">Одним файлом или в виде тайлов. Форматы: geotiff, jpg, png, GoogleEarth KML\KMZ</p>
+                    <ul class="aerophotoData__types-desc-prop">
+                        <li class="scale"><span>Масштаб от 1:500 до 1:10000</span></li>
+                        <li class="scale"><span>Масштаб от 1:500 до 1:10000</span></li>
+                        <li class="scale"><span>Масштаб от 1:500 до 1:10000</span></li>
+                    </ul>
+                    </div>
+                    <div class="aerophotoData__types-content-block-img">
+                        <img src="images/image_land.jpg" alt="">
+                        <p class="sideTitle">материалы</p>
+                    </div>
+                </div>
+                <div class="aerophotoData__types-content-block" id="content_4">
+                    <div>
+                        <p class="aerophotoData__types-desc-title">Одним файлом или в виде тайлов. Форматы: geotiff, jpg, png, GoogleEarth KML\KMZ</p>
+                    <ul class="aerophotoData__types-desc-prop">
+                        <li class="accur"><span>Высокая геодезическая точность</span></li>
+                        <li class="accur"><span>Высокая геодезическая точность</span></li>
+                        <li class="accur"><span>Высокая геодезическая точность</span></li>
+                    </ul>
+                    </div>
+                    <div class="aerophotoData__types-content-block-img">
+                        <img src="images/image_land.jpg" alt="">
+                        <p class="sideTitle">материалы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="applyAerophoto container">
+        <h2 class="backTitle">Области применения
+            <span class="frontTitle">Применение аэрофотосъемки</span>
+        </h2>
+        <div class="applyAerophoto__block">
+            <ul class="applyAerophoto__block-list">
+                <li class="harvest"><span>Сельское хозяйство</span></li>
+                <li class="forest"><span>Лесное хозяйство</span></li>
+                <li class="geodesy"><span>Геодезия</span></li>
+                <li class="energy"><span>Энергетика</span></li>
+                <li class="building"><span>Строительство</span></li>
+                <li class="townbuilding"><span>Градостроительство</span></li>
+                <li class="markshader"><span>Маркшейдерия</span></li>
+                <li class="teplovision"><span>Тепловизионная съемка</span></li>
+            </ul>
+            <div class="applyAerophoto__block-info">
+                <p class="applyAerophoto__block-info-text">Инвентаризация сельхозугодий, состояние посевов и всхожести, развития заболеваний, количества растений при рядной посадке, зарастания сорняками, состояния переувлажненных или засушливых участков полей, расчет  NDVI и других индексов. Мониторинг техники, сопровождение агротехнических мероприятий</p>
+                <div>
+                    <img src="images/image_land2.jpg" alt="">
+                </div>
+            </div>
+            <img class="applyAerophoto__block-bgImg" src="images/background/iconLine.svg" alt="">
+        </div>
+    </div>
+
+    <div class="mainForm">
+        <h2 class="backTitle">Напишите нам
+            <span class="frontTitle">Нужна помошь?</span>
+        </h2>
+        <form id="mainForm" action="form_data.php" method="post">
+            <h3 class="mainForm__title">Заполните форму  и мы за 5 минут подскажем вам лучшие способы защиты вашего урожая </h3>
+            <div class="mainForm__fields">
+                <label class="custom-field">
+                    <input type="name" name="name" placeholder="&nbsp;" required/>
+                    <span class="placeholder">Ваше имя*</span>
+                  </label>
+                  <label class="custom-field">
+                    <input type="tel" name="phone" placeholder="&nbsp;"/>
+                    <span class="placeholder">Ваш телефон</span>
+                  </label>
+                  <label class="custom-field">
+                    <input type="email" name="email" placeholder="&nbsp;" required/>
+                    <span class="placeholder">Ваш Email*</span>
+                  </label>
+                  <button class="commonBtn mainForm__fields-btn" type="submit">Отправить</button>
+            </div>
+            <img class="mainForm__lines" src="images/background/iconLine.svg" alt="">
+            <img class="mainForm__drone" src="images/image_Drone.png" alt="">
+        </form>
+        <a href="#">Политика конфидициальности</a>
+    </div>
+
+    <footer class="footer container">
+        <div class="header__menu">
+            <img class="header__menu-logo" src="images/logo_main.svg" alt="логотип">
+            <a class="header__menu-tel" href="tel:+78612179118">+7861 21791 18</a>
+        </div>
+        <div class="footer__menu-social">
+            <p>Подписывайтесь на наши соц. сети</p>
+            <ul>
+                <li><a class="footer__menu-social-vk" target="_blank" href="https://vk.com"></a></li>
+                <li><a class="footer__menu-social-inst" target="_blank" href="https://instagram.com"></a></li>
+                <li><a class="footer__menu-social-tiktok" target="_blank" href="https://tiktok.com"></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="basket" class="basket">
+        <div class="basket__content">
+            <button class="basket__content-close"><img src="images/icons/IconClose.svg" alt=""></button>
+            <h4 class="basket__content-title">Корзина</h4>
+            <img class="basket__content-img" src="images/image_busket_drone.png" alt="">
+            <div class="basket__content-text">
+                <p class="basket__content-text-emptyBask">Корзина пуста</p>
+            </div>
+            <button class="basket__content-contShop">Продолжить покупки</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/slick.js"></script>
+</body>
+</html>
